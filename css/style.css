@@ -181,6 +181,19 @@ ol {
 	background-image: linear-gradient(to right, #9325ee 0%, #f9488b 100%), linear-gradient(to right, #9325ee 0%, #f9488b 100%);
 }
 
+.primary-btn:hover {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 12px 40px;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 50px;
+	background-image: -webkit-gradient(linear, left top, right top, from(#9325ee), to(#f9488b)), -webkit-gradient(linear, left top, right top, from(#9325ee), to(#f9488b));
+	background-image: -o-linear-gradient(left, #7615c5 0%, #ce2566 100%), -o-linear-gradient(left, #7615c5 0%, #ce2566 100%);
+	background-image: linear-gradient(to right, #7615c5 0%, #ce2566 100%), linear-gradient(to right, #7615c5 0%, #ce2566 100%);
+}
+
 .site-btn {
 	font-size: 16px;
 	color: #ffffff;
@@ -188,6 +201,18 @@ ol {
 	border: none;
 	padding: 10px 40px 12px;
 	border-radius: 50px;
+}
+
+.site-btn:hover {
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: 600;
+	border: none;
+	padding: 10px 40px 12px;
+	border-radius: 50px;
+	background-image: -webkit-gradient(linear, left top, right top, from(#9325ee), to(#f9488b)), -webkit-gradient(linear, left top, right top, from(#9325ee), to(#f9488b));
+	background-image: -o-linear-gradient(left, #7615c5 0%, #ce2566 100%), -o-linear-gradient(left, #7615c5 0%, #ce2566 100%);
+	background-image: linear-gradient(to right, #7615c5 0%, #ce2566 100%), linear-gradient(to right, #7615c5 0%, #ce2566 100%);
 }
 
 /* Preloder */
@@ -386,7 +411,7 @@ ol {
 }
 
 .hero-section .hero-text {
-	padding-top: 184px;
+	padding-top: 100px;
 }
 
 .hero-section .hero-text span {
@@ -2227,6 +2252,7 @@ ol {
 	}
 	.ha-text {
 		padding-top: 0;
+		text-align: center;
 	}
 	.member-item {
 		width: 25%;
@@ -2295,9 +2321,10 @@ ol {
 	}
 	.counter-section .counter-text {
 		margin-bottom: 30px;
+		text-align: center;
 	}
 	.counter-section .cd-timer {
-		text-align: left;
+		text-align: center;
 	}
 	.speaker-item .si-text .si-title {
 		padding-top: 30px;
@@ -2312,7 +2339,14 @@ ol {
 		margin-right: 0;
 	}
 	.hero-section .hero-text {
-		margin-bottom: 20px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.cs-text {
+		text-align: center;
+	}
+	.ha-text {
+		text-align: center;
 	}
 }
 
@@ -2333,6 +2367,7 @@ ol {
 	}
 	.hero-section .hero-text {
 		margin-bottom: 20px;
+		text-align: center;
 	}
 	.member-item {
 		width: 33.33%;
